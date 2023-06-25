@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechGenius - Développement Full-Stack</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="logo.png"><img src="logo.png" alt="TechGenius Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>Bienvenue sur le site de notre entreprise spécialisée dans le développement full-stack. Nous proposons des solutions personnalisées pour répondre à vos besoins numériques.</p>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Développement web front-end et back-end</li>
+            <li>Applications mobiles</li>
+            <li>Gestion de bases de données</li>
+            <li>Tests et qualité du code</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="image">
+                <img src="image1.jpg" alt="Image 1" onclick="openModal(this.src)">
+            </div>
+            <div class="image">
+                <img src="image2.jpg" alt="Image 2" onclick="openModal(this.src)">
+            </div>
+            <div class="image">
+                <img src="image3.jpg" alt="Image 3" onclick="openModal(this.src)">
+            </div>
+            <div class="image">
+                <img src="image4.jpg" alt="Image 4" onclick="openModal(this.src)">
+            </div>
+            <div class="image">
+                <img src="image5.jpg" alt="Image 5" onclick="openModal(this.src)">
+            </div>
+            <div class="image">
+              <img src="image6.gif" alt="Image 6" onclick="openModal(this.src)">
+          </div>
+        </div>
+        <div id="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="Modal Image">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contactez-nous sur WhatsApp : <a href="https://wa.me/+22955507329">+22955507329</a></p>
+    </section>
+
+    <footer>
+        <p>© 2023 TechGenius. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
